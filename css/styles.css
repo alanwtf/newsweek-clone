@@ -1,0 +1,92 @@
+.container{
+    max-width: 1310px;
+}
+
+.newsweeklogo{
+    background-color: red;
+}
+
+.brand{
+    width: 30%;
+    fill: #fff;
+}
+
+.header-link{
+    color: #fff;
+    font-weight: bolder;
+}
+
+.header-link:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.subscribe{
+    background-color: yellow;
+    color: #000;
+    font-weight: bolder;
+}
+
+.subscribe:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar{
+    justify-content: space-between !important;
+    color: #000;
+    font-weight: bold;
+    list-style: none;
+    padding: 20px 60px 20px 0;
+    margin: 0;
+    
+}
+
+.nav-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1 1 auto;
+    border-right: 1px solid grey;
+}
+
+.nav-item-last{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.nav-item span:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.nav-item-last span:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.navbar2{
+    justify-content: left !important;
+    padding: 10px;
+    padding-top: 0px;
+    margin: 0; 
+    border-bottom: 12px solid lightgrey;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.navbar2 li{
+    padding: 0px 10px;
+}
+
+.navbar2 li:not(:first-child){
+    color: grey;
+}
+
+.navbar2 li:not(:first-child):hover{
+    color: red;
+    cursor: pointer;
+}
+
