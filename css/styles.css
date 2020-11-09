@@ -422,3 +422,43 @@
     line-height: 18px;
     
 }
+
+.ads{
+    border-top: 1px solid lightgray;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.sub-ad-title{
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+    padding-bottom: 5px;   
+}
+
+.subscribe-box{
+    display: flex;
+    align-items: center;
+}
+
+.sub-box-sub{
+    padding: 30px;
+    background-color: rgb(235, 235, 235);
+}
+
+.subscribe-img-sub{
+    padding-right: 30px;
+    width: 30%;
+}
+
+.subscribe-box-title{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.subscribe-box-desc{
+    font-size: 14px;
+    line-height: 14px;
+    padding-top: 10px;;
+}
