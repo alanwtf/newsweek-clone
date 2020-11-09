@@ -105,8 +105,13 @@
 
 }
 
+.debate-subtitle{
+    padding-bottom: 8px;
+    border-bottom: 4px solid lightgray;
+}
+
 .featured-story{
-    margin: 30px 0;
+    margin-bottom: 30px;
 }
 
 .img-container-story{
@@ -128,6 +133,12 @@
     font-size: 18px;
 }
 
+.small-img-section{
+    color: #000;
+    font-size: 12px;
+    background-color: rgb(187, 210, 218);
+}
+
 .featured-story-title{
     font-weight: bolder;
     color: #000;
@@ -147,4 +158,267 @@
 .small-story-title{
     font-weight: bold;
     color: gray;
+}
+
+.opinion-pic{
+    height: 63px;
+}
+
+.opinion{
+    display: flex;
+    align-items: center;
+}
+
+.opinion-text{
+    margin-left: 15px;
+}
+
+.opinion-title{
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.opinion-author{
+    font-size: 15px;
+    color: rgba(0,0,0,.7);
+}
+
+.author{
+    font-weight: bolder;
+}
+
+.debate-separator{
+    border-top: 3px double lightgray;
+    position: relative;
+    display: block;
+    margin: 20px 0;
+}
+
+.versus{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    bottom: -15px; 
+}
+
+.opinion-reversed{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    border-bottom: 4px solid lightgray;
+}
+
+.opinion-border:not(:last-child){
+    border-bottom: 1px solid lightgray;
+}
+
+.sponsored-insight-title{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(14, 129, 224);
+}
+
+.sponsored-insight-content{
+    border: 1px solid lightgray;
+    padding: 20px;
+    padding-top: 40px;
+    font-size: 14px;
+}
+
+.newsweek-subscribe{
+    margin: 30px;
+    padding: 20px;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid lightgray;
+}
+
+.nw-title{
+    display: flex;
+    align-items: center;
+    
+}
+
+.icon{
+    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+    height: 29px;
+    width: 29px;
+    margin-right: 10px;
+    flex-shrink: 0;
+    
+}
+
+.subscribe-text{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    text-transform: uppercase;
+
+}
+
+.subscribe-input{
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 0;
+    padding: 3px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.subscribe-btn{
+    border: none;
+    border-radius: 2px;
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding: 3px 0;
+    font-size: 14px;
+}
+
+.story-border{
+    padding: 20px;
+    border: 1px solid lightgray;
+}
+
+
+.img-section-blue{
+    color: rgb(0, 119, 255);
+}
+
+.extra-story{
+    border-top: solid 1px lightgray;
+    padding-top: 10px;
+}
+
+.extra-story img{
+    float: left;
+    margin: 0 10px 8px 0;
+}
+
+.extra-story-title{
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.extra-story-text{
+    font-size: 15px;
+    line-height: 20px;   
+}
+
+.clickable:hover{
+    cursor: pointer;
+}
+
+.red-underline:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.section-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.section-img{
+    height: 290px;
+    width: 100%;
+}
+
+.all-features-btn{
+    margin-top: 5px;
+    padding: 5px 0;
+    width: 100%;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    font-weight: bold;
+    text-align: center;
+}
+
+.all-features-btn:hover{
+    background-color: lightgray;
+}
+
+.categories{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.category1{
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    
+    margin-right: 5px;
+}
+
+.category2{
+    color: red;
+    font-weight: bold;
+    font-size: 16px;   
+}
+
+.another-story-title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;;
+}
+
+.yet-another-text{
+    line-height: 16px;
+}
+
+.yet{
+    font-size: 20px;
+}
+
+.section-pick{
+    margin: 20px 0;
+    padding-top: 20px;
+    border-top: 1px solid lightgray;
+}
+
+.section-title-again{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.small-story{
+    display: flex;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.smaller-story-img{
+    width: 35%;
+    padding-right: 20px;
+}
+
+.smaller-story-title{
+    font-weight: bold;
+    width: 65%;
+    line-height: 18px;
+    
 }
